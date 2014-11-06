@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Javascript</title>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/highcharts.js"></script>
+    <script type="text/javascript" src="/js/modules/exporting.js"></script>
+
+    <script type="text/javascript">
+        /*$(function () {
+            // JCCC
+            var jccc = {
+                title: {
+                    text: 'Funding Sources at JCCC'
+                },
+                series: [{
+                    type: 'pie',
+                    data: [
+                        ['Local', 45],
+                        ['State', 15],
+                        ['Tuition and Fees', 26]
+                    ]
+                }]
+            };
+            $('#jccc').highcharts(jccc)
+
+            // Median
+            var median = {
+                title: {
+                    text: 'Median Funding Sources'
+                },
+                series: [{
+                    type: 'pie',
+                    data: [
+                        ['Local', 16],
+                        ['State', 20],
+                        ['Tuition and Fees', 45]
+                    ]
+                }]
+            };
+            $('#median').highcharts(median)
+        })/**/
+    </script>
+
+
+</head>
+<body>
+<h1>Pie Chart with Simple Configuration</h1>
+
+<div id="jccc" style="min-width: 310px; width:410px; height: 400px; float: left"></div>
+<div id="median" style="min-width: 310px; width:410px; height: 400px; float: left"></div>
+
+
+</body>
+</html>
